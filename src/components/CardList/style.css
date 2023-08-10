@@ -1,0 +1,11 @@
+.card-list {
+    border: 2px solid #ff0000;
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    padding: 16px;
+
+    & .card {
+        width: 25%;
+    }
+}
