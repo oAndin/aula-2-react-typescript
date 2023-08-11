@@ -18,7 +18,7 @@ const Card = ({ titulo, imagem, descricao, acoes, categoria }: CardProps) => {
                 </h3>
                 {
                     categoria && (
-                        <h4>{categoria}</h4>
+                        <h4 className='category'>{categoria}</h4>
                     )
                 }
 
