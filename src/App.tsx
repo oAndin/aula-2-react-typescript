@@ -1,10 +1,12 @@
 import Card from "./components/Card";
 import CardList from "./components/CardList";
+import DarkMode from "./components/DarkMode";
 
 const App = () => {
 
   return (
     <>
+      <DarkMode />
       <CardList>
         <Card
           titulo='titulo 1'
@@ -28,7 +30,6 @@ const App = () => {
 
         />
       </CardList>
-
     </>
   )
 };

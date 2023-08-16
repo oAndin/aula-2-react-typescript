@@ -1,0 +1,27 @@
+div.themeBtn {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #c4c4c4;
+    margin: 8px;
+}
+
+div.ball {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 1s ease-in-out;
+}
+
+div.themeBtn:hover {
+    cursor: pointer;
+}
+
+div.themeBtn .active {
+    background-color: rgb(3, 3, 168);
+}
